@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Vendas - IA de Redações</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            height: 500px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            background: #e8491d;
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .form-section {
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .form-section form {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .form-section form input, .form-section form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .form-section form button {
+            background: #50b3a2;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>IA de Redações</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section class="showcase">
+        <div class="container">
+            <h1>Melhore Suas Redações com Nossa IA</h1>
+            <p>Obtenha redações de alta qualidade com a ajuda da nossa IA avançada. Rápido, eficaz e confiável!</p>
+        </div>
+    </section>
+    
+    <section class="content container">
+        <h2>Por que Escolher Nossa IA de Redações?</h2>
+        <p>Nossa IA oferece:</p>
+        <ul>
+            <li>Correções gramaticais e de estilo.</li>
+            <li>Melhoria de coesão e coerência textual.</li>
+            <li>Análise de plágio.</li>
+            <li>Suporte 24/7.</li>
+        </ul>
+        <div class="cta">
+            <a href="#payment">Comprar Agora</a>
+        </div>
+    </section>
+    
+    <section class="form-section" id="payment">
+        <div class="container">
+            <h2>Finalizar Compra</h2>
+            <form action="https://www.example.com/payment" method="POST">
+                <input type="text" name="name" placeholder="Nome Completo" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="address" placeholder="Endereço" required>
+                <input type="text" name="card_number" placeholder="Número do Cartão" required>
+                <input type="text" name="expiry_date" placeholder="Data de Validade (MM/AA)" required>
+                <input type="text" name="cvv" placeholder="CVV" required>
+                <button type="submit">Pagar Agora</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
